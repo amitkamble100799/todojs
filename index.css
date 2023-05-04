@@ -1,0 +1,279 @@
+* {
+    font-family: "Manrope", sans-serif;
+    cursor: default;
+  }
+body{
+ margin: 0%;
+ background-color: black;
+ max-width: 100vw;
+}
+.modal{
+   
+  backdrop-filter: blur(2px);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   gap: 5px;
+   width: 200px;
+   height: 150px;
+   transform: translate(-50%,-50%);
+border-radius: 10px;
+color: brown;
+background-color: white;
+box-shadow: 2px 2px 2px 2px rgb(245, 236, 236);
+} 
+
+#item-submit{
+
+background-color:  rgb(245, 66, 66);
+color: white;
+font-size:larger;
+border-radius: 20px;
+width: 70px;
+width: 70px;
+}
+#task-submit{
+background-color:  rgb(245, 66, 66);
+color: white;
+font-size:larger;
+height: 40px;
+width: 70px;
+border-radius: 20px;
+}
+#modal-close{
+background-color:  rgb(245, 66, 66);
+color: white;
+font-size:larger;
+height: 40px;
+width: 70px;
+border-radius: 20px;
+}
+#btns1{
+display: flex;
+margin-top: 5%;
+gap: 10px;
+justify-content: space-evenly;
+
+}
+#btns{
+display: flex;
+margin-top: 5%;
+gap: 10px;
+justify-content: space-evenly;
+
+}
+#item-input{
+padding: 8px;
+width:180px;
+box-shadow: 5px 5px 5px  rgb(245, 236, 236); 
+border-radius: 6px;
+
+} 
+#task-input{
+padding: 8px;
+width:180px;
+margin-bottom: 10px;
+box-shadow: 5px 5px 5px  rgb(245, 236, 236); 
+border-radius: 6px;
+}
+
+
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+
+  
+  .fa-solid {
+    color:royalblue;
+margin-top: 1px;
+   
+    margin-right:10px; 
+ }
+  .task-modal {
+    background-color: rgba(0, 0, 0, 0.367);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 5;
+  }
+  .single-task
+  {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px ;
+  }
+  .single-task-modal {
+    background-color: black;
+    color:royalblue;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  .item-modal {
+    background-color: rgba(0, 0, 0, 0.367);
+    backdrop-filter: blur(2px);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+.add-option {
+   
+    display: flex;
+    padding-right:5% ;
+    color: white;
+    align-items: center;
+    font-size: 22px;
+}
+
+.taskContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 160px;
+    padding: 20px;
+  }
+  
+  .taskCard {
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      min-height: 200px;
+      min-width: 150px;
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+    }
+  
+  .taskTitle {
+    text-align: center;
+    color :red;
+  }
+  .plus
+  {
+    position: relative;
+    left: 0px;
+    font-size: 30px;
+  }
+  .markBtn
+  {
+    display: inline;
+    background-color:aquamarine;
+    border-radius:10px;
+    padding: 2px;
+    font-size: 16px;
+    margin-left: 6px;
+ 
+  }
+  .buttonContainer
+  {
+    display: flex;
+    justify-content: flex-end;
+  }
+.titleBox
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  min-height: 230px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+
+}
+.deletebtn
+{
+display: flex;
+align-items: center;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+margin-left: 5px;
+color: rgb(201, 0, 232);
+ 
+}
+.Addbtn
+{
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(231, 96, 12);
+}
+.titleadd
+{
+
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  min-height: 250px;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+height: 2px;
+
+}
+.list
+{
+  padding-left: 20px;
+  color: rgb(255, 112, 112);
+}
+.topitem
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Task11
+{
+  color: rgb(60, 0, 255);
+}
+.List1{margin-left: 6px;
+  font-weight:lighter;
+}
+.hrr{
+    width: 185px;
+}
+
+
+
+
