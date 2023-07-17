@@ -26,8 +26,9 @@ body{
    top: 50%;
    left: 50%;
    gap: 5px;
-   width: 200px;
-   height: 150px;
+   width: 300px;
+   height: 170px;
+   text-align: center;
    transform: translate(-50%,-50%);
 border-radius: 10px;
 color: brown;
@@ -48,21 +49,22 @@ width: 70px;
 background-color:  rgb(245, 66, 66);
 color: white;
 font-size:larger;
-height: 40px;
-width: 70px;
+height: 45px;
+width: 75px;
+margin-right: 30px;
 border-radius: 20px;
 }
 #modal-close{
 background-color:  rgb(245, 66, 66);
 color: white;
 font-size:larger;
-height: 40px;
-width: 70px;
+height: 45px;
+width: 75px;
 border-radius: 20px;
 }
 #btns1{
 display: flex;
-margin-top: 5%;
+margin: 5%;
 gap: 10px;
 justify-content: space-evenly;
 
@@ -75,21 +77,20 @@ justify-content: space-evenly;
 
 }
 #item-input{
-padding: 8px;
-width:180px;
+padding: 13px;
+width:250px;
 box-shadow: 5px 5px 5px  rgb(245, 236, 236); 
 border-radius: 6px;
 
 } 
 #task-input{
-padding: 8px;
-width:180px;
+padding: 13px;
+width:250px;
+margin-left: 20px;
 margin-bottom: 10px;
 box-shadow: 5px 5px 5px  rgb(245, 236, 236); 
 border-radius: 6px;
 }
-
-
 
 .topBar {
     display: flex;
@@ -103,7 +104,6 @@ border-radius: 6px;
   .fa-solid {
     color:royalblue;
 margin-top: 1px;
-   
     margin-right:10px; 
  }
   .task-modal {
@@ -166,8 +166,8 @@ margin-top: 1px;
   .taskCard {
       background-color: white;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      min-height: 200px;
-      min-width: 150px;
+      min-height: 280px;
+      min-width: 160px;
       display: flex;
       flex-direction: column;
       padding: 12px;
@@ -253,7 +253,7 @@ height: 2px;
 .list
 {
   padding-left: 20px;
-  color: rgb(255, 112, 112);
+  color:white;
 }
 .topitem
 {
@@ -273,7 +273,3 @@ height: 2px;
 .hrr{
     width: 185px;
 }
-
-
-
-
