@@ -167,7 +167,7 @@ margin-top: 1px;
       background-color: white;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       min-height: 280px;
-      min-width: 160px;
+      min-width: 200px;
       display: flex;
       flex-direction: column;
       padding: 12px;
@@ -231,6 +231,10 @@ color: rgb(201, 0, 232);
   font-size: 40px;
   font-weight: bold;
   color: rgb(231, 96, 12);
+}
+#single-task-name{
+  position: relative;
+  left: -25px;
 }
 .titleadd
 {
